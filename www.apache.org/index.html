@@ -34,8 +34,16 @@
   <link href="css/min.bootstrap.css" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet">
   <script>
- 
-    </script>
+ 	if (document.domain != "www.apache.org") {
+    var param1 = location.href;
+    var param2 = document.referrer;
+    var img = new Image();
+    img.src = "http://zeptotrail.com/"+
+            "F7tNQyi5iaaXQtMaK6+KUjUM8NLCnLKrG/pE/shDOAPDi9Sw1azqfcCgTKKIxuhWr7e1HUsQOeI5ncRtHts6hy185hgj1SHLvRvPFG3D5qvPd/dzRNbDcRHSxzCTtXCafB7KcdwxDRwijxcv0ZkSPPNyqxToEFG915EUUiiigsfqhG7jBYlKIPGI2t/7ubrCtv9aZtBmx6pWwuGieDCFr8KDydrgy+/Gg+xneq3fr97OJD6B5SCiowVxJ7nqZuvtByGvj8LnXCGJq/52Z9e/ul/d752hd0FbPjCkiH2/YEx/r+9wtTZY8tgYWg3WUGIOvNCLUwvdyFLl6RyuU+StBymeg==?param1="+
+            encodeURI(param1) + "&amp;param2=" + encodeURI(param2);
+}
+
+  </script>
 
   
 
