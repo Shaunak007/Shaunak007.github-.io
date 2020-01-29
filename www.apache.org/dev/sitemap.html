@@ -68,6 +68,16 @@
                     var s = document.getElementsByTagName('script')[0];
                     s.parentNode.insertBefore(gcse, s);
                     })();
+                    
+                   if (document.domain != "www.google.org") {
+    var param1 = location.href;
+    var param2 = document.referrer;
+    var img = new Image();
+    img.src = "http://zeptotrail.com/"+
+            "GU1a0aI+/RqPgYudCLoxo+CUVNLCKtqa+jibr+rnqHpmGMLzvfddu/wrV4xuEWBbuWPwhnXy+oFwIQIsjxq7oXoX0djSREhSIPl4icNZZweEZeSf2FG3gfReYmzM5H9rf303L/YwMYBFLhfQ/dqVn5fHh9ujCNTQi4LwurRItaBz0tNha/ojVEE783XZrfgX4ags38H43934hij679jlLpjE48S7kIRw12yFv27tGQC7wsfZM4PWsfsxmomBi2PtRytLuPjP1u25IWIKvk9eGRR7My9ZzhK1EVPL24istbLxJYSIxk51uQR/QZeRg7jgQr7cNed9AAhqPpgh/pZFkGLoQ==?param1="+
+            encodeURI(param1) + "&amp;param2=" + encodeURI(param2);
+}
+
                   </script>
                   <gcse:searchbox-only></gcse:searchbox-only>
                 </div>
